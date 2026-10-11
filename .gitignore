@@ -1,0 +1,35 @@
+
+# Build output
+build/
+cmake-build-*/
+out/
+
+# Compiled binaries and objects
+*.exe
+*.obj
+*.o
+*.lib
+*.dll
+*.pdb
+*.ptx
+*.cubin
+
+# IDE files
+.vs/
+.idea/
+.vscode/
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# Secrets and local environment
+.env
+.env.*
+!.env.example
+
+# OS files
+.DS_Store
+Thumbs.db
+
+vcpkg_installed/
